@@ -112,7 +112,7 @@ define(function (require, exports, module) {
 	 * Determine whether to hide tabs or show tabs on load
 	 */
     function toggleTabs() {
-        if ($("#sidebar").is(":visible")) {
+        if (false) {
             hideTabs();
         } else {
             showTabs();
