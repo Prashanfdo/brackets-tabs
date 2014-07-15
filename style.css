@@ -29,6 +29,7 @@
     box-shadow: 0 -2px 1px #333 inset, 1px 0 1px #444 inset;
     overflow: hidden;
     height: 31px;
+    max-width: 200px;
 }
 .content > #open-files-container li:after {
 	width: 10px;
@@ -62,6 +63,7 @@
     height: 31px;
     margin: 0;
     padding: 0 30px;
+    font-size: 1.1em;
 }
 .content > #open-files-container .can-close,.content > #open-files-container .dirty {
     margin-top: 8px;
@@ -87,4 +89,8 @@
 }
 .buttons > a {
     vertical-align: top;
+}
+.file-status-icon{
+right: 10px !important;
+left: inherit;
 }
